@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     //@Override
     public void buttonOnClick(View v) {
         // setIntent();
-        Intent i = new Intent(this, IndexingActivity.class);
+        Intent i = new Intent(this, IndexingPhotosActivity.class);
         startActivity(i);
         //setContentView(R.layout.activity_main);
     }
